@@ -9,6 +9,15 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 0.3rem;
+}
+
+body > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
 }
 
 @media screen and (max-width: 992px) {
