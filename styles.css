@@ -66,4 +66,10 @@ body > div {
   background: #eeb850;
   z-index: 2;
   position: absolute;
+  transition: all 0.3s ease;
+}
+
+.shape-1 span:nth-child(3):hover {
+  width: 3rem;
+  height: 3rem;
 }
