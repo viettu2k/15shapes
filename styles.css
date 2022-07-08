@@ -280,6 +280,7 @@ body > div {
   background: #efa93b;
   border-radius: 4rem 4rem 1rem 1rem;
   z-index: 1;
+  margin-bottom: -0.8rem;
 }
 
 .shape-6 span:nth-child(2) {
